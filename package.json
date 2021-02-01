@@ -1,0 +1,34 @@
+{
+	"name": "clifu",
+	"version": "1.0.0",
+	"description": "node cli for commandlinefu.com",
+	"license": "MIT",
+	"repository": "vikbert/clifu",
+	"author": {
+		"name": "Xun Zhou",
+		"url": "https://vikbert.github.io/"
+	},
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli"
+	],
+	"dependencies": {
+		"chalk": "^2.3.0",
+		"meow": "^5.0.0"
+	},
+	"devDependencies": {
+		"ava": "^1.2.1",
+		"execa": "^1.0.0",
+		"xo": "^0.24.0"
+	}
+}
